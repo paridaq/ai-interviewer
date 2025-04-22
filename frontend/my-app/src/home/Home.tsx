@@ -1,3 +1,4 @@
+import Craps from "../Nav/craps/Craps";
 
 
 
@@ -32,7 +33,7 @@ function Home(){
                 color: white;
                 border: none;
                 padding: 10px 20px;
-                border-radius: 5px;
+                border-radius: 40px;
                 cursor: pointer;
             }
 
@@ -51,7 +52,7 @@ function Home(){
                 color: black;
                 border: none;
                 padding: 10px 15px;
-                border-radius: 5px;
+                border-radius: 40px;
                 cursor: pointer;
             }
 
@@ -82,6 +83,7 @@ function Home(){
             <button>marketing</button>
             <button>finance</button>
         </div>
+   
 
 
         </>

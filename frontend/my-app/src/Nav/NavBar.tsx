@@ -19,7 +19,7 @@ function NavBar(){
             boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)' 
         }}>
             <div className="appname" style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>
-                <h3>ai interviewer</h3>
+                <h3>Interview Copilot</h3>
             </div>
             <div className="links" style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Ai application</a>
