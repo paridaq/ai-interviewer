@@ -1,24 +1,12 @@
 import { useNavigate } from "react-router-dom"
+import '../index.css'
 
 function NavBar(){
     const navigate = useNavigate();
 
     return (
         <>
-        <div className="nav" style={{ 
-            display: 'flex', 
-            justifyContent: 'space-between', 
-            alignItems: 'center', 
-            padding: '10px 20px', 
-            position: 'fixed', 
-            top: 0, 
-            left: 0, 
-            right: 0, 
-            width: '100%', 
-            backgroundColor: '#000', 
-            color: '#fff', 
-            boxShadow: '0 2px 5px rgba(0, 0, 0, 0.1)' 
-        }}>
+        <div className="nav" >
             <div className="appname" style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>
                 <h3>Interview Copilot</h3>
             </div>

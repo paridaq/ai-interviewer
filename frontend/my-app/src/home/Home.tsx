@@ -61,7 +61,7 @@ function Home(){
             }
 
             body {
-                background-color: white;
+               
                 color: black;
             }
             `}

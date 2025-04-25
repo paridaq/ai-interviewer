@@ -7,7 +7,10 @@ function Pricing(){
 
         <>
         
-        <div className="pricing-container" style={{display:'flex'}}>
+        <div className="pricing-container" style={{display:'flex',
+                                                   
+                                                 
+        }}>
             <div
                     className="pricing-table"
                     style={{
