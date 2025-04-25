@@ -1,6 +1,7 @@
-
+import { useNavigate } from "react-router-dom"
 
 function NavBar(){
+    const navigate = useNavigate();
 
     return (
         <>
@@ -23,8 +24,8 @@ function NavBar(){
             </div>
             <div className="links" style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Ai application</a>
-                <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Ai mock Interview</a>
-                <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Pricing</a>
+                <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={() => navigate('/interviewsection')}>Ai mock Interview</a>
+                <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={()=>navigate('/pricing')} >Pricing</a>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Resources</a>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Question bank</a>
                 <button style={{ padding: '5px 10px', border: 'none', backgroundColor: '#007BFF', color: '#fff', borderRadius: '5px', cursor: 'pointer' }}>Sign In</button>
