@@ -59,8 +59,12 @@ function Pricing(){
                     <li>Feature 2</li>
                     <li>Feature 3</li>
                     <li>Feature 4</li>
+                    <li>Feature 4</li>
+                    <li>Feature 4</li>
+                    <li>Feature 4</li>
+                    <li>Feature 4</li>
                 </ul>
-                <button style={{marginTop: '175px',
+                <button style={{marginTop: '80px',
                                             width:'200px',
                                             borderRadius:'20px'
                            }} >Subscribe</button> 
@@ -87,8 +91,14 @@ function Pricing(){
                     <li>Feature 3</li>
                     <li>Feature 4</li>
                     <li>Feature 5</li>
+                    <li>Feature 5</li>
+                    <li>Feature 5</li>
+                    <li>Feature 5</li>
+                    <li>Feature 5</li>
+                    <li>Feature 5</li>
+                   
                 </ul>
-                <button style={{marginTop: '155px',
+                <button style={{marginTop: '35px',
                                             width:'200px',
                                             borderRadius:'20px'
                            }} >Subscribe</button> 
