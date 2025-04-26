@@ -1,8 +1,15 @@
 import { useNavigate } from "react-router-dom"
 import '../index.css'
+import { useState } from "react";
 
 function NavBar(){
     const navigate = useNavigate();
+    const[hoverindex,setHoverindex] = useState<number | null>(null)
+    const linkStyle = (isHovered:boolean)=>({
+         textDecoration:'none',
+         color:isHovered ? 'black':"#fff",
+         transition:'color 0.3s ease'
+    })
 
     return (
         <>

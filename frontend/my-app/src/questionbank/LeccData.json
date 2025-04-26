@@ -1,0 +1,18 @@
+
+[
+    {
+      "id": 1,
+      "title": "Lecture 1",
+      "topics": ["Introduction", "Basics", "Overview"]
+    },
+    {
+      "id": 2,
+      "title": "Lecture 2",
+      "topics": ["Advanced Topics", "Deep Dive"]
+    },
+    {
+      "id": 3,
+      "title": "Lecture 3",
+      "topics": ["Summary", "Q&A"]
+    }
+]

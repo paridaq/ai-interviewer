@@ -6,6 +6,7 @@ import Home from './home/Home'
 import NavBar from './Nav/NavBar'
 import Footer from './footer/Footer'
 import Pricing from './Pricingpage/Pricing'
+import Departments from './questionbank/Departments'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/pricing' element={<Pricing/>}/>
+        <Route path='/departments' element={<Departments/>}/>
         
         
 

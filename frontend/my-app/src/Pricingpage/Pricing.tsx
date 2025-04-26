@@ -23,7 +23,8 @@ function Pricing(){
                                 height: '500px',
                                 color: 'black',
                                 width:'260px',
-                                borderRadius:'30px'
+                                borderRadius:'30px',
+                               
                                 
                                 
                             }}

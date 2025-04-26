@@ -1,4 +1,5 @@
-import Craps from "../Nav/craps/Craps";
+import About from "../about/About";
+
 
 
 
@@ -64,8 +65,14 @@ function Home(){
                
                 color: black;
             }
+                .container{
+                margin-top:200px;
+                magin-bottom:300px
+                }
             `}
         </style>
+        <div className="container">
+
         <div className="texts">
             <h1>Intervieww copilot</h1>
             <h2>your ultimate Ai interview assistant</h2>
@@ -83,6 +90,9 @@ function Home(){
             <button>marketing</button>
             <button>finance</button>
         </div>
+        </div>
+        <About/>
+       
    
 
 
