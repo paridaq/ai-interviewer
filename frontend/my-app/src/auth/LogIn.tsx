@@ -8,16 +8,7 @@ function LogIn(){
 
         <>
           <style>{`
-        body {
-          margin: 0;
-          padding: 0;
-          font-family: 'Poppins', sans-serif;
-          background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
-          height: 100vh;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
+      
         .signin-container {
           background: white;
           padding: 40px 30px;

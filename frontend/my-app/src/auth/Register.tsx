@@ -3,12 +3,7 @@ function Register(){
     return(
         <>
         <style>{`
-        body {
-          background: #f0f2f5;
-          margin: 0;
-          padding: 0;
-          font-family: 'Poppins', sans-serif;
-        }
+      
         .register-container {
           height: 500px;
           width: 400px;
