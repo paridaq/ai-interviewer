@@ -13,7 +13,7 @@ function NavBar(){
                 <h3>Interview Copilot</h3>
             </div>
             <div className="links" style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
-                <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Ai application</a>
+                <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={()=>navigate('/')}>Ai application</a>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={() => navigate('/ai-mock-interview')} >Ai mock Interview</a>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={()=>navigate('/pricing')} >Pricing</a>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={()=>navigate('/resources')}>Resources</a>
