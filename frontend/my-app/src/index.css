@@ -26,8 +26,9 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  place-items:center;
+  
+ min-width: 320px;
   min-height: 100vh;
 }
 
@@ -84,4 +85,5 @@ button:focus-visible {
   background-image: linear-gradient(to right, rgb(106, 69, 174), white); /* Gradient background */
   color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
 }

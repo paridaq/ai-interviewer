@@ -1,15 +1,10 @@
 import { useNavigate } from "react-router-dom"
 import '../index.css'
-import { useState } from "react";
+
 
 function NavBar(){
     const navigate = useNavigate();
-    const[hoverindex,setHoverindex] = useState<number | null>(null)
-    const linkStyle = (isHovered:boolean)=>({
-         textDecoration:'none',
-         color:isHovered ? 'black':"#fff",
-         transition:'color 0.3s ease'
-    })
+  
 
     return (
         <>
@@ -19,12 +14,12 @@ function NavBar(){
             </div>
             <div className="links" style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Ai application</a>
-                <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={() => navigate('/interviewsection')}>Ai mock Interview</a>
+                <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={() => navigate('/ai-mock-interviewa')} >Ai mock Interview</a>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={()=>navigate('/pricing')} >Pricing</a>
-                <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Resources</a>
+                <a href="" style={{ textDecoration: 'none', color: '#fff' }} onClick={()=>navigate('/resources')}>Resources</a>
                 <a href="" style={{ textDecoration: 'none', color: '#fff' }}>Question bank</a>
-                <button style={{ padding: '5px 10px', border: 'none', backgroundColor: '#007BFF', color: '#fff', borderRadius: '5px', cursor: 'pointer' }}>Sign In</button>
-                <button style={{ padding: '5px 10px', border: 'none', backgroundColor: '#28A745', color: '#fff', borderRadius: '5px', cursor: 'pointer' }}>Sign Up</button>
+                <button style={{ padding: '5px 10px', border: 'none', backgroundColor: '#007BFF', color: '#fff', borderRadius: '5px', cursor: 'pointer' }} onClick={()=>navigate('/signin')}>Sign In</button>
+                <button style={{ padding: '5px 10px', border: 'none', backgroundColor: '#28A745', color: '#fff', borderRadius: '5px', cursor: 'pointer' }} onClick={()=>navigate('/signup')}>Sign Up</button>
             </div>
         </div>    </>
     )

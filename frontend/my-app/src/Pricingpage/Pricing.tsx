@@ -24,7 +24,7 @@ function Pricing(){
                                 color: 'black',
                                 width:'260px',
                                 borderRadius:'30px',
-                               
+                               placeItems:'center'
                                 
                                 
                             }}

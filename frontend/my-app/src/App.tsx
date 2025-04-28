@@ -7,6 +7,9 @@ import NavBar from './Nav/NavBar'
 import Footer from './footer/Footer'
 import Pricing from './Pricingpage/Pricing'
 import Departments from './questionbank/Departments'
+import MockChat from './mock/MockChat'
+import LogIn from './auth/LogIn'
+import Register from './auth/Register'
 
 
 function App() {
@@ -16,9 +19,12 @@ function App() {
     <>
     <NavBar/>
       <Routes>
+        <Route path='/signin' element={<LogIn/>}/>
+        <Route path='/signup' element={<Register/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='/pricing' element={<Pricing/>}/>
-        <Route path='/departments' element={<Departments/>}/>
+        <Route path='/resources' element={<Departments/>}/>
+        <Route path='/ai-mock-interview' element={<MockChat/>}/>
         
         
 

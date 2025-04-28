@@ -55,6 +55,21 @@ const lecturesData = [
     id: 3,
     title: "Lecture 3",
     topics: ["Summary", "Q&A"]
+  },
+  {
+    id: 3,
+    title: "Lecture 3",
+    topics: ["Summary", "Q&A"]
+  },
+  {
+    id: 3,
+    title: "Lecture 3",
+    topics: ["Summary", "Q&A"]
+  },
+  {
+    id: 3,
+    title: "Lecture 3",
+    topics: ["Summary", "Q&A"]
   }
 ];
 
@@ -66,25 +81,42 @@ export default function Departments() {
   };
 
   return (
-    <div style={{ padding: '20px', backgroundColor: '#f0f0f0' }}>
-      {lecturesData.map((lecture) => (
-        <div key={lecture.id} style={{ marginBottom: '10px' }}>
-          <div 
-            onClick={() => handleToggle(lecture.id)}
-            style={{ cursor: 'pointer', fontWeight: 'bold', backgroundColor: '#ccc', padding: '10px' }}
-          >
-            {lecture.title}
-          </div>
+     <div style={{ padding:'200px', backgroundColor: '#f0f0f0', width: '1000px', marginLeft:'-120px', backgroundImage:'linear-gradient(to right,yellow,white'
 
-          {openLectureId === lecture.id && (
-            <div style={{ backgroundColor: '#eee', padding: '10px', marginLeft: '20px' }}>
+      }}>
+      {lecturesData.map((lecture) => (
+        <div key={lecture.id} style={{ marginBottom: '1px' }}>
+          <div 
+        onClick={() => handleToggle(lecture.id)}
+        style={{ cursor: 'pointer', fontWeight: 'bold', backgroundColor: '#ccc', padding: '28px', width: '100%',color:'black', textAlign:'left'}}
+          >
+        {lecture.title}
+            {openLectureId === lecture.id && (
+            <div style={{ marginTop: '10px' }}>
               {lecture.topics.map((topic, index) => (
-                <div key={index}>{topic}</div>
+              <div
+                key={index}
+                style={{
+                backgroundColor: '#eee',
+                padding: '20px',
+                marginBottom: '10px',
+                width: 'calc(100% - 40px)',
+                color: 'black',
+                cursor: 'pointer',
+                border: '1px solid #ccc',
+                borderRadius: '5px',
+                textAlign:'left'
+                }}
+                onClick={() => alert(`You clicked on: ${topic}`)}
+              >
+                {topic}
+              </div>
               ))}
             </div>
-          )}
+            )}
+          </div>
         </div>
       ))}
-    </div>
+        </div>
   );
 }
