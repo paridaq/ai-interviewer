@@ -29,7 +29,10 @@ import  { useState } from "react";
             };
 
             return (
-                <div style={{ display: "flex", flexDirection: "column", height: "600px", width:'800px'}}>
+                <>
+               
+                <div style={{ display: "flex", flexDirection: "column", height: "600px", width:'800px', marginTop:'100px'}}>
+                    <h3 style={{color:'black'}}>Welcome guest Let's start your interview</h3>
                     <div
                         style={{
                             flex: 1,
@@ -97,6 +100,7 @@ import  { useState } from "react";
                         </button>
                     </div>
                 </div>
+                </>
             );
         }
 
